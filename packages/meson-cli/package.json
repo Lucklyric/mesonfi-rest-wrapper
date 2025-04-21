@@ -1,0 +1,36 @@
+{
+  "name": "mesonfi-cli",
+  "version": "1.0.0",
+  "description": "CLI tool for MesonFi cross-chain bridge",
+  "main": "dist/index.js",
+  "bin": {
+    "meson-cli": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "bridge": "ts-node src/index.ts bridge",
+    "bridge-contract": "ts-node src/index.ts bridge-contract",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mesonfi",
+    "bridge",
+    "cli",
+    "blockchain",
+    "defi"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "commander": "^11.1.0",
+    "dotenv": "^16.3.1",
+    "ethers": "^6.8.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.10",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}

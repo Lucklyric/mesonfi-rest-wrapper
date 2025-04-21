@@ -1,0 +1,12 @@
+{
+  "name": "mesonfi-rest-wrapper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Lucklyric/mesonfi-rest-wrapper.git",
+  "author": "asun <lucklyric@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}
